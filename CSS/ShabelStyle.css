@@ -1,0 +1,315 @@
+﻿body {
+}
+
+.button {
+    background-color: #d49c47; /*Gold*/
+    border: none;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 14px;
+    width: 121px;
+    border-radius: 10px;
+    white-space: normal;
+    text-wrap: normal;
+    white-space: normal;
+}
+
+.new-button {
+    float: right;
+}
+
+.table-size {
+    max-width: 500px;
+    margin: 0px auto;
+    float: none;
+    width: 50%;
+    height: 50%;
+}
+
+.textbox {
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px;
+}
+
+.hide-button {
+    display: inline-block;
+    background-color: #d49c47 !important;
+    vertical-align: middle;
+    text-align: center;
+    margin: -.25em;
+    margin-top: -.50em;
+}
+
+.fa-eye-slash {
+    margin: -.50em !important;
+    margin-top: -.50em !important;
+    color: white;
+}
+
+.fa-eye {
+    margin: -.50em !important;
+    margin-top: -.50em !important;
+    color: white;
+}
+
+.login-button {
+    float: initial;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #d49c47 !important;
+    width: 8%;
+    align-content: center;
+    margin-left: -.25em;
+}
+
+.btn, .btn:hover, .btn:active, .btn:visited {
+    background-color: #d49c47 !important;
+    margin-left: -.25em;
+    align-content: center;
+}
+
+.upload-button input[type="file"] {
+    background-color: #d49c47; /*Gold*/
+    border: none;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    width: 99px;
+    border-radius: 10px;
+}
+
+.badge {
+    background-color: #d49c47; /*Gold*/
+}
+
+.xBtn {
+    width: 30px;
+}
+
+.dwnImage {
+    display: block;
+    height: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.button-cancel {
+    background-color: #681a1a;
+    border: none;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    float: right;
+    width: 121px;
+    border-radius: 10px;
+}
+
+.button-upload {
+    background-color: #ca9f5e;
+    border: none;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    float: right;
+    width: 121px;
+    border-radius: 10px;
+}
+
+.delete-button {
+    background-color: #681a1a; /*Red*/
+    border: none;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    width: 121px;
+    border-radius: 10px;
+}
+
+.back-to-top {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 5%;
+    right: 10%;
+    z-index: 999;
+    border: none;
+    outline: none;
+    background-color: #d49c47;
+    color: white;
+    font-size: 9px;
+    cursor: pointer;
+    padding: 1%;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity .6s ease-in-out;
+    text-align: center;
+}
+
+a.back-to-top {
+    font-weight: 1000;
+    letter-spacing: 2px;
+    font-size: 9px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.p-1 {
+    text-decoration: none;
+}
+
+.gridview-style {
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Verdana, Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Verdana, Arial, Helvetica, sans-serif;
+}
+
+    a:visited, a:active {
+        text-decoration: none;
+        color: black;
+        font-family: Arial, Verdana, Arial, Helvetica, sans-serif;
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: #d49c47;
+        font-family: Arial, Verdana, Arial, Helvetica, sans-serif;
+        font-size-adjust: none;
+    }
+
+
+.h1 {
+    font-family: Arial, Verdana, Arial, Helvetica, sans-serif;
+}
+
+.h2 {
+    font-family: Arial, Verdana, Arial, Helvetica, sans-serif;
+}
+
+.h3 {
+    font-family: Arial, Verdana, Arial, Helvetica, sans-serif;
+}
+
+.h4 {
+    font-family: Arial, Verdana, Arial, Helvetica, sans-serif;
+}
+
+.h5 {
+    font-family: Arial, Verdana, Arial, Helvetica, sans-serif;
+}
+
+.h6 {
+    font-family: Arial, Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+.p-style {
+    font-family: Arial, Verdana, Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.locations-fixed {
+    position: fixed;
+    left: 75%;
+    top: 16%;
+}
+
+.page-buffer {
+    margin-top: 0%;
+}
+
+.fade-out {
+    position: relative;
+    max-height: 30px;
+}
+
+    .fade-out:after {
+        content: '';
+        position: relative;
+        top: 3em;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-image: linear-gradient( rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 100% );
+    }
+
+@media screen and (max-width : 770px) {
+    .locations-fixed {
+        top: 1%;
+    }
+}
+
+@media screen and (max-width : 320px) {
+    .locations-fixed {
+        top: 4%;
+    }
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    width: 60px;
+    bottom: 5%;
+    right: 10%;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #d49c47;
+    color: white;
+    font-size: 9px;
+    cursor: pointer;
+    padding: 1%;
+    border-radius: 10px;
+    opacity: 0.4;
+    text-align: center;
+}
+
+    #myBtn:hover {
+        opacity: 0.8;
+    }
+
+#hidden {
+    text-align: center;
+    position: fixed;
+    bottom: 5%;
+    right: 10%;
+    z-index: 0;
+}
+
+input[type=file], input[type=file] + input {
+    background-color: #eee;
+    border: 1px solid gray;
+    padding: 4px;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+    input[type=file] + input {
+        padding: 8px;
+        background-color: #d49c47; /*Gold*/
+    }
